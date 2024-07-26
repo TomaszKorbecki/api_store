@@ -1,0 +1,21 @@
+-i https://pypi.org/simple
+apispec[marshmallow]==6.6.1; python_version >= '3.8'
+blinker==1.8.2; python_version >= '3.8'
+click==8.1.7; python_version >= '3.7'
+flask==3.0.3; python_version >= '3.8'
+flask-jwt-extended==4.6.0; python_version >= '3.7' and python_version < '4'
+flask-smorest==0.44.0; python_version >= '3.8'
+flask-sqlalchemy==3.1.1; python_version >= '3.8'
+greenlet==3.0.3; python_version < '3.13' and platform_machine == 'aarch64' or (platform_machine == 'ppc64le' or (platform_machine == 'x86_64' or (platform_machine == 'amd64' or (platform_machine == 'AMD64' or (platform_machine == 'win32' or platform_machine == 'WIN32')))))
+itsdangerous==2.2.0; python_version >= '3.8'
+jinja2==3.1.4; python_version >= '3.7'
+markupsafe==2.1.5; python_version >= '3.7'
+marshmallow==3.21.3; python_version >= '3.8'
+packaging==24.1; python_version >= '3.8'
+passlib==1.7.4
+pyjwt==2.8.0; python_version >= '3.7'
+python-dotenv==1.0.1; python_version >= '3.8'
+sqlalchemy==2.0.31; python_version >= '3.7'
+typing-extensions==4.12.2; python_version >= '3.8'
+webargs==8.4.0; python_version >= '3.8'
+werkzeug==3.0.3; python_version >= '3.8'
